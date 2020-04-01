@@ -1,0 +1,24 @@
+
+1.
+CHECK THAT CARD IS PLAYABLE
+player should CHOOSE card before it is removed to
+allow card to be checked for VALID MOVE before it is
+played (and removed from players hand and added to table)
+
+2.
+Would be nice to have a function players could call
+to arrange the card in their hand grouping similar
+cards and ordering then in ascending or ascending depending on group
+
+3.
+computer could be a modified player class
+
+4.
+hand, table can also be modified whot decks
+
+5.
+could make a resuable method for getting user options
+that takes and array or range of the possible option ints
+
+
+
