@@ -1,20 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b98bbed-ff9a-452f-88ca-c08046063bb6" name="Default Changelist" comment="" />
+    <list default="true" id="edf62ea3-2979-42a6-92a6-734760f9dfbc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SimpleWhot/Game$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SimpleWhot/WhotCard$SpecialAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SimpleWhot/_ideas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SimpleWhot/_rough.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/SimpleWhot/_steps.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_ideas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_rough.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_steps.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/ContactsManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/META-INF/SimpleWhot.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/Settings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/SimpleWhot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/SimpleWhot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/WhotCard$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/WhotCard$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/WhotCard$Suit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/WhotCard$Suit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/WhotCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/WhotCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/WhotDeck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/WhotDeck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/ideas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleWhot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleWhot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WhotCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WhotCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ideas.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="FavoritesManager">
+    <favorites_list name="SimpleWhot" />
   </component>
-  <component name="ProjectId" id="1ZSoASbDIBnpfp2om6aAwqxdoy7" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZxXFbs2xzmzcA1jd4BNUqY4ae3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,80 +50,97 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
-    <configuration name="SimpleWhot" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="SimpleWhot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SimpleWhot" />
       <module name="SimpleWhot" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="SimpleWhot" />
-      <module name="SimpleWhot" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.SimpleWhot" />
-    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SimpleWhot" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4b98bbed-ff9a-452f-88ca-c08046063bb6" name="Default Changelist" comment="" />
-      <created>1584841713853</created>
+      <changelist id="edf62ea3-2979-42a6-92a6-734760f9dfbc" name="Default Changelist" comment="" />
+      <created>1585781615902</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584841713853</updated>
+      <updated>1585781615902</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584952521076">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585796375650">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1584952521076" />
-    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584952454582">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585796375650" />
+    <state x="452" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587129270036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="412" y="148" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1584952454582" />
-    <state width="1877" height="242" key="GridCell.Tab.0.bottom" timestamp="1585315014616">
+    <state x="452" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1587129270036" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1587349558074">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1585314330438" />
-    <state width="1877" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1585315014616" />
-    <state width="1877" height="242" key="GridCell.Tab.0.center" timestamp="1585315014615">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1587272300829" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1587349558074" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586035106463" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1587349558074">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1585314330437" />
-    <state width="1877" height="242" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1585315014615" />
-    <state width="1877" height="242" key="GridCell.Tab.0.left" timestamp="1585315014615">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1587272300829" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1587349558074" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586035106462" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1587349558073">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1585314330437" />
-    <state width="1877" height="242" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1585315014615" />
-    <state width="1877" height="242" key="GridCell.Tab.0.right" timestamp="1585315014615">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1587272300828" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1587349558073" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586035106462" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1587349558074">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1585314330437" />
-    <state width="1877" height="242" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1585315014615" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585385080847">
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1587272300829" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1587349558074" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586035106463" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1587272300829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1585291899046" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585385080847" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1584859895593">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1587272300829" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586035106465" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1587272300829">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1584859895593" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SimpleWhot$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1585307437851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1587272300829" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1586035106464" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1587272300829">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1587272300829" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1586035106464" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1587272300829">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1587272300829" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1586035106465" />
+    <state x="2252" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1587346919449">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="630" y="146" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1587260479763" />
+    <state x="2252" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1587346919449" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586083970246" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1587111852438">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1587111852438" />
   </component>
 </project>

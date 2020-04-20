@@ -1,0 +1,53 @@
+
+1.
+CHECK THAT CARD IS PLAYABLE
+player should CHOOSE card before it is removed to
+allow card to be checked for VALID MOVE before it is
+played (and removed from players hand and added to table)
+
+2.
+Would be nice to have a function players could call
+to arrange the card in their hand grouping similar
+cards and ordering then in ascending or ascending depending on group
+
+3.
+computer could be a modified player class
+
+4.
+hand, table can also be modified whot decks
+
+5.
+could make a resuable method for getting user options
+that takes and array or range of the possible option ints
+
+Algorithm design
+ ~ choose card, or market
+ ~ if card, check if card is valid
+ ~ if card is valid add to table
+ ~ if card has special effect then run effect method...
+ ~ if market then add card to hand
+https://www.pagat.com/com/whot.html
+
+6.
+could merge anyOne and holdOn methods into one method.
+
+7.
+can make a function to take all over game input and
+channel it to correct input processor depending on game state
+-input for selecting card to play and picking from deck
+-input for reprinting hand
+-input for printing number of cards each player has (game stats)
+-input to exit and save game
+etc
+
+8.
+Should declaration of semi last card be automatic
+or done by player?
+
+9.
+how to code in permitting cards of same rank (with no special action)
+to be played simultaneously.
+
+10.
+when someone wins the game (or deck exhausted)
+print no of cards other players have, (the card info) and the sum of values

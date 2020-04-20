@@ -1,0 +1,37 @@
+
+
+
+Write up code for suspension special action.
+
+Write up code for other special actions:
+-PickThree
+-AnyOne
+-PickTwo
+-WildCard
+-HoldOn
+-Go General Market
+
+
+Setup computer to play automatically.
+
+
+Write code for playing non special action cards with same rank together.
+
+
+
+
+
+Done ======>
+Create Dictionary to hold special cards and their effect (or effect code?)
+If first center card is the wild card play next card in deck on top of it.
+Print out info of card played (before special action)...
+
+Some error after choosing suit for wild card, or hold on card. It hangs in at input waiting.
+possible solutions:
+- follow flow to see if there is anything obvious causing bug. (If nothing found see next solution.)
+- recode way of repeating current active player's turn using flags instead of calling
+chooseMove again.
+- code gets stuck in while loop in "chooseMove" because of activeTurnPlayed field:
+  activeTurnPlayed is false and so code is stuck in chooseMove while loop and can't escape.
+  figure out how this happens and how to fix.
+

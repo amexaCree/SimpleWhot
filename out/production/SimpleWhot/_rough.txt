@@ -1,0 +1,33 @@
+
+=== from Main Class ===
+//    public int playerSelect() {
+//        while (true) {
+//            try {
+//                int option = scanner.nextInt();
+//                return option;
+//            } catch (java.util.InputMismatchException error) {
+//                //System.out.println(error); //java.util.InputMismatchException
+//                System.out.println("Please enter number corresponding to card you want to play");
+//                System.out.println("or enter 0 to pick a new card\n");
+//                scanner.nextLine();
+//            }
+//        }
+//    }
+
+//    public int play() {
+//        while (true) {
+//            try {
+//            } catch (Exception error) {
+//                System.out.println("\n");
+//                scanner.nextLine();
+//            }
+//        }
+//    }
+
+//    public void userSelection(int input, String menu) {
+//    }
+
+
+// in startGame while loop, old way of getting card user wants to play
+//            int selection = playerSelect();
+//            game.play(selection);
