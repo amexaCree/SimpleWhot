@@ -43,6 +43,9 @@ etc
 8.
 Should declaration of semi last card be automatic
 or done by player?
+if automatic need to figure out if card can check up,
+declaration only happens if one can check up in 2 turns (semi last card)
+or in next one turn (last card)
 
 9.
 how to code in permitting cards of same rank (with no special action)
@@ -51,3 +54,16 @@ to be played simultaneously.
 10.
 when someone wins the game (or deck exhausted)
 print no of cards other players have, (the card info) and the sum of values
+
+11.
+number turns/moves for history
+print move history number
+create game stat class to save in game history field
+update game history after each move/turn completed
+enable printing out history as log..
+
+12.
+shuffle and replenish market
+check in nextTurn() method if deck or "market" is less
+than 5 cards, if true take from under last card shuffle
+and add under remaining market.

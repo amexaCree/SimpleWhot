@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Player {
     public int id;
-    public String name;
+    private String name;
     private ArrayList<WhotCard> hand = new ArrayList<WhotCard>();
     private boolean isComputer = false;
 
@@ -14,7 +14,12 @@ public class Player {
     }
 
     public void setAsComputer() {
+        this.name = "Computer";
         this.isComputer = true;
+    }
+
+    public boolean isComputer() {
+        return isComputer;
     }
 
 

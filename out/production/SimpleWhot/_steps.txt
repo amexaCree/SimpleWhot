@@ -1,7 +1,29 @@
 
+number turns/moves for history
+print move history number
+
+code valid check up moves
+cards you can't check up with - any card with a special action
+
+Write code for declaring last card or semi last card when player
+plays a turn.
+
+
+Write code for playing non special action cards with same rank together.
+
+
+Setup computer to play automatically.
+
+
+code for replenishing market.
 
 
 
+
+Done ======>
+Create Dictionary to hold special cards and their effect (or effect code?)
+If first center card is the wild card play next card in deck on top of it.
+Print out info of card played (before special action)...
 
 Some error after choosing suit for wild card, or hold on card. It hangs in at input waiting.
 possible solutions:
@@ -12,23 +34,15 @@ chooseMove again.
   activeTurnPlayed is false and so code is stuck in chooseMove while loop and can't escape.
   figure out how this happens and how to fix.
 
-
 Write up code for suspension special action.
 
 Write up code for other special actions:
 -PickThree
--AnyOne
+(-AnyOne)
 -PickTwo
 -WildCard
 -HoldOn
 -Go General Market
 
-
-Setup computer to play automatically.
-
-
-
-Done ======>
-Create Dictionary to hold special cards and their effect (or effect code?)
-If first center card is the wild card play next card in deck on top of it.
-Print out info of card played (before special action)...
+Wild card played over wild card issue!!!
+cause: nextSuitMatch not null

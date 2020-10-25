@@ -1,22 +1,27 @@
 
+4.
+give each turn/move a number for reference in a history
+print turn/move history number with every new turn
 
+code in defined valid moves for checking up and winning
+cards you can't check up with - any card with a special action
 
-Write up code for suspension special action.
+Write code for declaring last card or semi last card when player
+plays a turn. to alert other player(s)
 
-Write up code for other special actions:
--PickThree
--AnyOne
--PickTwo
--WildCard
--HoldOn
--Go General Market
+3.
+Write code for playing set of non special action cards with same rank together.
 
-
+1.
 Setup computer to play automatically.
+ - choosing move
+ - choosing suit when played wild card
+ - pick 3 situation
 
+2.
+make method for getting card index in hand when given it's suit and rank
 
-Write code for playing non special action cards with same rank together.
-
+code for replenishing market.
 
 
 
@@ -35,3 +40,15 @@ chooseMove again.
   activeTurnPlayed is false and so code is stuck in chooseMove while loop and can't escape.
   figure out how this happens and how to fix.
 
+Write up code for suspension special action.
+
+Write up code for other special actions:
+-PickThree
+(-AnyOne)
+-PickTwo
+-WildCard
+-HoldOn
+-Go General Market
+
+Wild card played over wild card issue!!!
+cause: nextSuitMatch not null
