@@ -157,8 +157,17 @@ public class ComputerPlayer extends Player {
     private int checkHand(WhotCard.Suit centerSuit, int centerRank, boolean specialRank, WhotCard.Suit nextSuit) {
         int move = 0;
 
-        ArrayList<WhotCard.Suit> r = getRankMatches(centerRank);
-        ArrayList<Integer> s = getSuitMatches(centerSuit);
+        ArrayList<WhotCard.Suit> r = new ArrayList<WhotCard.Suit>();
+        ArrayList<Integer> s = new ArrayList<Integer>();
+
+        if (nextSuit != null) {
+            s = getSuitMatches(nextSuit);
+        }
+        else {
+            r = getRankMatches(centerRank);
+            s = getSuitMatches(centerSuit);
+        }
+
 
         int sitch = getSitch(r, s);
 
@@ -169,7 +178,28 @@ public class ComputerPlayer extends Player {
         System.out.println("SuitMatches: " + s);
         System.out.println("Sitch: " + sitch);
 
+        if (sitch == 1) {
+            move = getCardIndx(20, WhotCard.Suit.WHOT);
+        }
+
+        if (sitch == 2) {
+            move = getCardIndx(s.get(0), centerSuit);
+        }
+
+        if (sitch == 3) {
+            move = getCardIndx(centerRank, r.get(0));
+        }
+
         return move;
+    }
+
+    private int getCardIndx(int rank, WhotCard.Suit suit) {
+        for (int i = 0; i < computerHand.size(); i++) {
+            if (computerHand.get(i).getRank() == rank && computerHand.get(i).getSuit() == suit) {
+                return i;
+            }
+        }
+        return 0;
     }
 
     private ArrayList<WhotCard.Suit> getRankMatches(int rank) {
@@ -193,8 +223,40 @@ public class ComputerPlayer extends Player {
             }
         }
 
-        if (r.size() == 0) {
+        if (r.size() == 0 && s.size() == 1) {
+            sitch = 2;
+        }
 
+        if (r.size() == 1 && s.size() == 0) {
+            sitch = 3;
+        }
+
+        // multiple possible option => complex situations
+        // check for special cards
+        // check number of following matches for suit or rank option's suit (if one)
+
+        if (r.size() == 0 && s.size() > 1) {
+            sitch = 4;
+        }
+
+        if (r.size() > 1 && s.size() == 0) {
+            sitch = 5 ;
+        }
+
+        if (r.size() == 1 && s.size() == 1) {
+            sitch = 6;
+        }
+
+        if (r.size() == 1 && s.size() > 1) {
+            sitch = 7;
+        }
+
+        if (r.size() > 1 && s.size() == 1) {
+            sitch = 8;
+        }
+
+        if (r.size() > 1 && s.size() > 1) {
+            sitch = 9 ;
         }
 
         return sitch;
@@ -204,8 +266,17 @@ public class ComputerPlayer extends Player {
      *  Sitch 0 == pick card     (r=s=0, w=0)
      *  Sitch 1 == wildcard      (r=s=0, w>0)
      *
-     *  Sitch 2 == single option (r=0, s=1 OR r=1, s=0)
+     *  single option (r=0, s=1 OR r=1, s=0)
+     *  Sitch 2 == play suit match (r=0, s=1)
+     *  Sitch 3 == play rank match (r=1, s=0)
      *
+     *  multiple options
+     *  Sitch 4  (r=0, s>1)
+     *  Sitch 5  (r>1, s=0)
+     *  Sitch 6  (r=1, s=1)
+     *  Sitch 7  (r=1, s>1)
+     *  Sitch 8  (r>1, s=1)
+     *  Sitch 9  (r>1, s>1)
      *
      */
 

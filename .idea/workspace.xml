@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edf62ea3-2979-42a6-92a6-734760f9dfbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/+ComputerPlayerEdit.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/+compPlayerAgain.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CardSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComputerPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/ComputerPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/ComputerPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/ComputerPlayerEdit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/+ComputerPlayerEdit.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/Game$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/Game$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/Settings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/SimpleWhot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/SimpleWhot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/_ideas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/_ideas.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/_steps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/_steps.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleWhot/compPlayerAgain.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleWhot/+compPlayerAgain.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComputerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComputerPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Settings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleWhot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleWhot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_ideas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_ideas.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_steps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/_steps.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,35 +78,40 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1602638758636" />
-    <state width="1323" height="379" key="GridCell.Tab.0.bottom" timestamp="1603589137129">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="328" key="GridCell.Tab.0.bottom" timestamp="1604126948992">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="379" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603589137129" />
-    <state width="1877" height="14" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599222840606" />
+    <state width="1323" height="294" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603872606025" />
+    <state width="1877" height="328" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604126948992" />
     <state width="1323" height="269" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602331842775" />
-    <state width="1323" height="379" key="GridCell.Tab.0.center" timestamp="1603589137129">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="328" key="GridCell.Tab.0.center" timestamp="1604126948992">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="379" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603589137129" />
-    <state width="1877" height="14" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599222840606" />
+    <state width="1323" height="294" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603872606024" />
+    <state width="1877" height="328" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604126948992" />
     <state width="1323" height="269" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602331842775" />
-    <state width="1323" height="379" key="GridCell.Tab.0.left" timestamp="1603589137129">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="328" key="GridCell.Tab.0.left" timestamp="1604126948992">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="379" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603589137129" />
-    <state width="1877" height="14" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599222840606" />
+    <state width="1323" height="294" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603872606024" />
+    <state width="1877" height="328" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604126948992" />
     <state width="1323" height="269" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602331842775" />
-    <state width="1323" height="379" key="GridCell.Tab.0.right" timestamp="1603589137129">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="328" key="GridCell.Tab.0.right" timestamp="1604126948992">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state width="1323" height="379" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603589137129" />
-    <state width="1877" height="14" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599222840606" />
+    <state width="1323" height="294" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603872606025" />
+    <state width="1877" height="328" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604126948992" />
     <state width="1323" height="269" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602331842775" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1603585071110">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1605484795219">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603585071110" />
-    <state x="1899" y="269" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1602311722169" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605484795219" />
+    <state x="1899" y="269" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1604125414114" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1605195956142" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1603849512743">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1603849512743" />
     <state x="1989" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599213161735">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>

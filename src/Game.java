@@ -104,6 +104,7 @@ public class Game {
 
     public void chooseMove() {
         //System.out.println("   B   ");
+        showHand(players.get(activeTurn));
 
 
         if (getActivePlayer().isComputer()) {
@@ -119,7 +120,7 @@ public class Game {
 
 
         Scanner scanner = new Scanner(System.in);
-        showHand(players.get(activeTurn));
+        // showHand(players.get(activeTurn));
 
         System.out.println("Please pick a card to play (enter number corresponding to card)");
         System.out.println("Or pick new card from deck (enter 0)");
@@ -181,35 +182,44 @@ public class Game {
 
         WhotCard chosenCard = activePlayer.getCard(selection - 1);
 
-        if (validMove(chosenCard)) {
-            System.out.println(activePlayer.getName() +" played " + chosenCard.info());
-            WhotCard playedCard = activePlayer.playCard(selection - 1);
-            addToTable(playedCard);
-            activeTurnPlayed = true;
-            if (playedCard.hasSpecialAction()) {
-                specialAction(playedCard);
-            }
-        }
-        else {
+        if (!validMove(chosenCard)) {
             System.out.println("Selected card doesn't match center, please try again.");
             return;
         }
 
+        System.out.println(activePlayer.getName() +" played " + chosenCard.info());
+        WhotCard playedCard = activePlayer.playCard(selection - 1);
+        addToTable(playedCard);
+
+        activeTurnPlayed = true;
+
+        if (playedCard.hasSpecialAction()) {
+            specialAction(playedCard);
+        }
+
         /* Todo -  Add ability to play more than one card
+         * check rank and suit of first card is playable else it's invalid
+         * then need to check all other cards are of same rank else invalid
          */
         if (selections.length > 1) {
 
-            for (Object i : selections) {
+            for (int i = 2; i < selections.length; i++) {
+                int nextSelection = Integer.parseInt(selections[i]);
 
+                WhotCard nextCard = activePlayer.getCard(selection - 1);
+                if (nextCard.getRank() != chosenCard.getRank()) {
+
+                }
             }
 
             //System.out.println(" Multiple card play only allowed for non special cards of matching ranks. Please try again."); return;
         }
-        else {
-
-        }
 
         return;
+    }
+
+    private boolean validCardCluster() {
+
     }
 
 

@@ -1,21 +1,43 @@
 
-number turns/moves for history
-print move history number
+5.
+give each turn/move a number for reference in a history
+print turn/move history number with every new turn
 
-code valid check up moves
+code in defined valid moves for checking up and winning
 cards you can't check up with - any card with a special action
 
 Write code for declaring last card or semi last card when player
-plays a turn.
+plays a turn. to alert other player(s)
 
+if last card declaration is automatic, can be checked and stated
+after validating played option, after play() method, before passing on
+to special action method, maybe just before or just after setting
+activeTurnPlayed as true.
 
-Write code for playing non special action cards with same rank together.
+would be nice if computer figures how to block check up
+when last card or semi last card is announced
 
+isolate different game rules so they can be edited or turned on and off
 
+3.
+Write code for playing set of non special action cards with same rank together.
+
+1.
 Setup computer to play automatically.
+ - choosing move
+ - choosing suit when played wild card
+ - pick 3 situation
 
+4.
+Make computer player hand map a class of it's own?
+Or make hand a class?
+
+2.
+make method for getting card index in hand when given it's suit and rank
 
 code for replenishing market.
+
+
 
 
 
